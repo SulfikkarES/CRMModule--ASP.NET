@@ -67,12 +67,136 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
+    <Content Include="css1\bootstrap-grid.css" />
+    <Content Include="css1\bootstrap-grid.min.css" />
+    <Content Include="css1\bootstrap-grid.rtl.css" />
+    <Content Include="css1\bootstrap-grid.rtl.min.css" />
+    <Content Include="css1\bootstrap-reboot.css" />
+    <Content Include="css1\bootstrap-reboot.min.css" />
+    <Content Include="css1\bootstrap-reboot.rtl.css" />
+    <Content Include="css1\bootstrap-reboot.rtl.min.css" />
+    <Content Include="css1\bootstrap-utilities.css" />
+    <Content Include="css1\bootstrap-utilities.min.css" />
+    <Content Include="css1\bootstrap-utilities.rtl.css" />
+    <Content Include="css1\bootstrap-utilities.rtl.min.css" />
+    <Content Include="css1\bootstrap.css" />
+    <Content Include="css1\bootstrap.min.css" />
+    <Content Include="css1\bootstrap.rtl.css" />
+    <Content Include="css1\bootstrap.rtl.min.css" />
+    <Content Include="Custemer.aspx" />
+    <Content Include="CustomerAdd.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\-17394_10209.jpg" />
+    <Content Include="images\05686_HD.jpg" />
+    <Content Include="images\1024X600_01.jpg" />
+    <Content Include="images\1024X600_02.jpg" />
+    <Content Include="images\1024x600_03.jpg" />
+    <Content Include="images\1387029931181.jpg" />
+    <Content Include="images\1387029941604.jpg" />
+    <Content Include="images\1387029995075.jpg" />
+    <Content Include="images\1387030029563.jpg" />
+    <Content Include="images\20212-purple-blooming-tree-in-the-garden-1920x1080-photography-wallpaper.jpg" />
+    <Content Include="images\3. Forest.jpg" />
+    <Content Include="images\6. Bridge.jpg" />
+    <Content Include="images\7. Starlight.jpg" />
+    <Content Include="images\a1c3672c507c6048021f7d6a96f8a0f2.0.jpg" />
+    <Content Include="images\download12121.jfif" />
+    <Content Include="images\Industries1--1-.jpg" />
+    <Content Include="images\ph-10147.jpg" />
+    <Content Include="js1\bootstrap.bundle.js" />
+    <Content Include="js1\bootstrap.bundle.min.js" />
+    <Content Include="js1\bootstrap.esm.js" />
+    <Content Include="js1\bootstrap.esm.min.js" />
+    <Content Include="js1\bootstrap.js" />
+    <Content Include="js1\bootstrap.min.js" />
+    <Content Include="Layout\WebForm1.aspx" />
+    <Content Include="SourceAdd.aspx" />
+    <Content Include="Source.aspx" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compnents\Custemers.cs" />
+    <Compile Include="Compnents\Source.cs" />
+    <Compile Include="Compnents\CRMModuleDBConnection.cs" />
+    <Compile Include="Custemer.aspx.cs">
+      <DependentUpon>Custemer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Custemer.aspx.designer.cs">
+      <DependentUpon>Custemer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerAdd.aspx.cs">
+      <DependentUpon>CustomerAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerAdd.aspx.designer.cs">
+      <DependentUpon>CustomerAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\CRMMasteer.Master.cs">
+      <DependentUpon>CRMMasteer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\CRMMasteer.Master.designer.cs">
+      <DependentUpon>CRMMasteer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SourceAdd.aspx.cs">
+      <DependentUpon>SourceAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SourceAdd.aspx.designer.cs">
+      <DependentUpon>SourceAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Source.aspx.cs">
+      <DependentUpon>Source.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Source.aspx.designer.cs">
+      <DependentUpon>Source.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Layout\CRMMasteer.Master" />
+    <Content Include="css1\bootstrap-grid.css.map" />
+    <Content Include="css1\bootstrap-grid.min.css.map" />
+    <Content Include="css1\bootstrap-grid.rtl.css.map" />
+    <Content Include="css1\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="css1\bootstrap-reboot.css.map" />
+    <Content Include="css1\bootstrap-reboot.min.css.map" />
+    <Content Include="css1\bootstrap-reboot.rtl.css.map" />
+    <Content Include="css1\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="css1\bootstrap-utilities.css.map" />
+    <Content Include="css1\bootstrap-utilities.min.css.map" />
+    <Content Include="css1\bootstrap-utilities.rtl.css.map" />
+    <Content Include="css1\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="css1\bootstrap.css.map" />
+    <Content Include="css1\bootstrap.min.css.map" />
+    <Content Include="css1\bootstrap.rtl.css.map" />
+    <Content Include="css1\bootstrap.rtl.min.css.map" />
+    <Content Include="js1\bootstrap.bundle.js.map" />
+    <Content Include="js1\bootstrap.bundle.min.js.map" />
+    <Content Include="js1\bootstrap.esm.js.map" />
+    <Content Include="js1\bootstrap.esm.min.js.map" />
+    <Content Include="js1\bootstrap.js.map" />
+    <Content Include="js1\bootstrap.min.js.map" />
+    <Content Include="images\customer.jpg_fit=scale" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

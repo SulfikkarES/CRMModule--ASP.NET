@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CRMMasteer.master.cs" Inherits="CRMModule.Layout.CRMMasteer" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>CRMModule</title>
+    <link rel="stylesheet" href="../css1/bootstrap.css" />
+
+  </head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../images/05686_HD.jpg" class="slide d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../images/1024X600_01.jpg" class="slide d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../images/1024X600_02.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/1024x600_03.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/1387029931181.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/1387029941604.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/1387030029563.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/20212-purple-blooming-tree-in-the-garden-1920x1080-photography-wallpaper.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/3. Forest.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/6. Bridge.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/7. Starlight.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/a1c3672c507c6048021f7d6a96f8a0f2.0.jpg" class="slide d-block w-100" alt="...">
+    </div>
+      <div class="carousel-item">
+      <img src="../images/ph-10147.jpg" class="slide d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">CRMModule</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ContactUs</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Selections
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Customers</a></li>
+            <li><a class="dropdown-item" href="#">Source</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Help</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+                        </div>
+          </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href=""> Sulfikkar E.S </a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    </form>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="../js1/bootstrap.js"></script> 
+</body>
+</html>
