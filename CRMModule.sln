@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMModule", "CRMModule\CRMModule.csproj", "{EF6EC48E-005F-4201-9448-CB628170C4DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF6EC48E-005F-4201-9448-CB628170C4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6EC48E-005F-4201-9448-CB628170C4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6EC48E-005F-4201-9448-CB628170C4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6EC48E-005F-4201-9448-CB628170C4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7026D939-6966-4B94-A778-2783FC12F702}
+	EndGlobalSection
+EndGlobal
